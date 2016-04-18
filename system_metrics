@@ -1,0 +1,366 @@
+{
+  "took" : 5,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 23487,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "system",
+      "_id" : "AVQoxy-sHlC_eAj-Bm-K",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.102Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 259735,
+          "user_p" : 0.0815,
+          "nice" : 35826,
+          "system" : 80532,
+          "system_p" : 0.0144,
+          "idle" : 6033408,
+          "iowait" : 84428,
+          "irq" : 11,
+          "softirq" : 666,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0.44,
+          "load5" : 0.34,
+          "load15" : 0.26
+        },
+        "mem" : {
+          "total" : 2987835392,
+          "used" : 2876223488,
+          "free" : 111611904,
+          "used_p" : 0.96,
+          "actual_used" : 2299760640,
+          "actual_free" : 688074752,
+          "actual_used_p" : 0.77
+        },
+        "swap" : {
+          "total" : 4066373632,
+          "used" : 212963328,
+          "free" : 3853410304,
+          "used_p" : 0.05
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-sHlC_eAj-Bm-S",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.109Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "rcuob/0",
+          "pid" : 10,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-sHlC_eAj-Bm-W",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.114Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 60,
+            "total" : 60,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "migration/1",
+          "pid" : 14,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-sHlC_eAj-Bm-Y",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.116Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "kworker/1:0H",
+          "pid" : 17,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-b",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.117Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 110,
+            "total" : 110,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "watchdog/2",
+          "pid" : 20,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-d",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.119Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 90,
+            "total" : 90,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "ksoftirqd/2",
+          "pid" : 22,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-g",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.120Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "rcuob/2",
+          "pid" : 26,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-h",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.121Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 120,
+            "total" : 120,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "watchdog/3",
+          "pid" : 27,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-m",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.124Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "rcuob/3",
+          "pid" : 33,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.18",
+      "_type" : "process",
+      "_id" : "AVQoxy-tHlC_eAj-Bm-n",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-18T09:50:23.124Z",
+        "beat" : {
+          "hostname" : "linux",
+          "name" : "linux"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "10:47"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "khelper",
+          "pid" : 34,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
